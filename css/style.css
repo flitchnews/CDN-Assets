@@ -218,7 +218,7 @@ nav {
 .featured-card::after {
     content: '';
     position: absolute;
-    background: linear-gradient(to bottom, rgba(35, 35, 35, 0), rgba(35, 35, 35, .35) 100%);
+    background: linear-gradient(to bottom, rgba(35, 35, 35, 0), rgba(0, 0, 0, .90) 100%);
     top: auto;
     bottom: 0;
     left: 0;
@@ -232,7 +232,7 @@ nav {
 }
 
 .featured-card:hover::after {
-    background: linear-gradient(to bottom, rgba(35, 35, 35, 0), rgba(35, 35, 35, .65) 100%);
+    background: linear-gradient(to bottom, rgba(35, 35, 35, 0), rgba(0, 0, 0, .96) 100%);
 }
 
 .card-img-overlay {
