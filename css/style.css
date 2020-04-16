@@ -447,10 +447,10 @@ nav {
 .widget-social {
     margin: 0 0 10px;
     color: #fff;
-    text-decoration: none;
 }
 
 .widget-social:hover {
-    color: #fff
+    color: #fff;
+    text-decoration: none;
 }
 
