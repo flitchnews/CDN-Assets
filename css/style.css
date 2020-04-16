@@ -392,7 +392,7 @@ nav {
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15);
 }
 
-.card-img {
+.index-content .card-img {
     object-fit: cover;
     max-height: 400px;
     border-radius: 5px 5px 0 0;
