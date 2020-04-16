@@ -502,9 +502,17 @@ nav {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.49) 79%, rgba(0,0,0,0) 100%)
 }
 
-.article-header-content {
-    max-width: 1160px;
+.article-header-wrapper {
+    width: 100%;
     position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.article-header-content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1160px;
 }
 
 .article-title {
