@@ -393,6 +393,10 @@ nav {
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15);
 }
 
+.index-content .card:hover, .index-content .card:focus, .index-content .card:visited {
+    text-decoration: none;
+}
+
 .index-content .card-img {
     object-fit: cover;
     max-height: 400px;
