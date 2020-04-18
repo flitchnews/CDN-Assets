@@ -16,6 +16,15 @@
     .article-header {
         height: 600px;
     }
+
+    .row-article {
+        padding-right: 15px;
+    }
+}
+
+.row-article {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .article-header {
