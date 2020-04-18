@@ -508,6 +508,7 @@ nav {
     position: absolute;
     bottom: 0;
     z-index: 1;
+    padding-bottom: 30px;
 }
 
 .article-header-content {
@@ -518,4 +519,8 @@ nav {
 
 .article-title {
     font-size: 48px;
+}
+
+.article-header-details {
+    margin-top: 20px
 }
