@@ -530,7 +530,30 @@ nav {
 
 .article-content {
     max-width: 728px;
-    padding: 10px 30px;
+    padding: 30px;
     background-color: var(--lighter);
     border-radius: 5px;
+    color: #fff;
+}
+
+.article-side-left {
+    min-width: 160px;
+}
+
+.article-side-left-inner {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.share-wrapper {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+}
+
+.share-content {
+    display: flex;
+    margin: -5px;
+    flex-flow: row wrap;
+    justify-content: center;
 }
