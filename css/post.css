@@ -7,6 +7,10 @@
 /* Desktop sizes */
 
 @media only screen and (max-width: 767px) { /* For small screens */
+    .row-article {
+        flex-direction: column-reverse;
+    }
+
     .article-side-left {
         padding-right: 0;
     }
