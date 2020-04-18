@@ -113,8 +113,7 @@
     padding-right: 25px;
 }
 
-.share-wrapper {
-    position: sticky;
+.share-wrapper, .side-previous-wrapper {
     top: 10px;
     width: 100%;
 }
