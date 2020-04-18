@@ -514,13 +514,23 @@ nav {
 .article-header-content {
     margin: 0 auto;
     width: 100%;
-    max-width: 1160px;
+    max-width: 1220px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .article-title {
     font-size: 48px;
+    margin-bottom: 0;
 }
 
 .article-header-details {
-    margin-top: 20px
+    margin-top: 10px
+}
+
+.article-content {
+    max-width: 728px;
+    padding: 10px 30px;
+    background-color: var(--lighter);
+    border-radius: 5px;
 }
