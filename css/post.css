@@ -140,6 +140,31 @@
     flex: 0 0 48px;
     justify-content: center;
     border-radius: 6px;
+    flex-direction: column;
+}
+
+.fa-twitter {
+    color: var(--twitter)
+}
+
+.fa-facebook-f {
+    color: var(--facebook)
+}
+
+.fa-reddit-alien {
+    color: var(--reddit)
+}
+
+.fa-pinterest {
+    color: var(--pinterest)
+}
+
+.fa-whatsapp {
+    color: var(--whatsapp)
+}
+
+.fa-envelope {
+    color: #ffa100
 }
 
 .share-button:hover {

@@ -11,6 +11,9 @@
     --twitter: #1DA1F2;
     --discord: #7289DA;
     --facebook: #3b5998;
+    --reddit: #ff4500;
+    --pinterest: #bd081c;
+    --whatsapp: #12af0a;
 }
 
 body {
@@ -23,6 +26,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Titillium Web', sans-serif;
+}
+
+a:hover a:focus a:visited {
+    text-decoration: none;
 }
 
 /* Bootstrap override */
