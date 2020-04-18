@@ -118,6 +118,7 @@
 .share-header {
     text-align: center;
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .share-content {
@@ -143,27 +144,27 @@
     flex-direction: column;
 }
 
-.fa-twitter {
+.share-button .fa-twitter {
     color: var(--twitter)
 }
 
-.fa-facebook-f {
+.share-button .fa-facebook-f {
     color: var(--facebook)
 }
 
-.fa-reddit-alien {
+.share-button .fa-reddit-alien {
     color: var(--reddit)
 }
 
-.fa-pinterest {
+.share-button .fa-pinterest {
     color: var(--pinterest)
 }
 
-.fa-whatsapp {
+.share-button .fa-whatsapp {
     color: var(--whatsapp)
 }
 
-.fa-envelope {
+.share-button .fa-envelope {
     color: #ffa100
 }
 
