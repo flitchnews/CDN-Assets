@@ -133,6 +133,7 @@
 }
 
 .share-button {
+    cursor: pointer;
     display: flex;
     margin: 5px;
     width: 48px;
