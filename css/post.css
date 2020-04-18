@@ -12,6 +12,15 @@
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1099px){ /* For medium screens */
+    .row-article {
+        flex-direction: column-reverse;
+    }
+    .article-side-left {
+        max-width: 100%;
+    }
+}
+
 @media only screen and (min-width: 768px) { /* For large screens */
     .article-header {
         height: 600px;
