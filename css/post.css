@@ -99,6 +99,11 @@
     margin-top: 10px
 }
 
+.article-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
 /* Content */
 
 .article-content {
@@ -118,6 +123,8 @@
 }
 
 .article-side-left-inner {
+    position: sticky;
+    top: 74px;
     padding-left: 25px;
     padding-right: 25px;
 }
