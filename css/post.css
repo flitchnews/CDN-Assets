@@ -11,6 +11,10 @@
         flex-direction: column-reverse;
     }
 
+    .side-previous-wrapper {
+        display: none;
+    }
+
     .article-side-left {
         padding-right: 0;
     }
@@ -20,8 +24,13 @@
     .row-article {
         flex-direction: column-reverse;
     }
+
     .article-side-left {
         max-width: 100%;
+    }
+    
+    .side-previous-wrapper {
+        display: none;
     }
 }
 
@@ -176,6 +185,12 @@
     opacity: .7;
 }
 
+.side-previous-wrapper {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
 .side-previous-wrapper::before {
     position: absolute;
     top: 0;
@@ -184,7 +199,7 @@
     width: 100%;
     height: 10px;
     background-color: transparent;
-    background-image: radial-gradient(currentColor 1px,transparent 1px);
+    background-image: radial-gradient(#fff 1px,transparent 1px);
     background-position: 1px 1px;
     background-size: 5px 5px;
     content: '';
@@ -197,5 +212,3 @@
     height: 110px;
     object-fit: cover;
 }
-
-/* */
