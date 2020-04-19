@@ -106,10 +106,15 @@
 
 /* Content */
 
-.article-content {
+.article-content-wrapper {
+    overflow: hidden;
     flex: 1 0 !important;
+    padding: 0 !important;
+}
+
+.article-content {
     max-width: 728px;
-    padding: 30px !important;
+    padding: 30px;
     background-color: var(--lighter);
     border-radius: 5px;
     color: #fff;
