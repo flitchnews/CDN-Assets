@@ -127,11 +127,15 @@
     padding-left: 0;
 }
 
-.article-side-left-inner {
+.article-side-left-wrapper {
     position: sticky;
     top: 74px;
+}
+
+.article-side-left-inner {
     padding-left: 25px;
     padding-right: 25px;
+    margin-bottom: 25px;
 }
 
 .share-wrapper, .side-previous-wrapper {
