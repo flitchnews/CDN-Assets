@@ -178,6 +178,7 @@ nav {
 @media only screen and (max-width: 767px) { /* For small screens */
     .featured-post .col-md-6 {
         padding: 6px 6px 0;
+        min-height: calc(517px /2);
     }
 
     .featured-post .col-md-12 {
@@ -210,6 +211,10 @@ nav {
     .featured-post .col-md-12:last-child {
         padding-top: 0;
     }
+}
+
+.row-featured {
+    height: 100%;
 }
 
 .featured-card {
