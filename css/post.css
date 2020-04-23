@@ -121,6 +121,10 @@
     color: #fff;
 }
 
+.article-content .iframe {
+    height: 920px;
+}
+
 .embed-youtube {
     display: block;
     margin: 0 auto 1rem;
