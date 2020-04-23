@@ -404,7 +404,7 @@ nav {
     padding-left: 0;
 }
 
-.index-content .card {
+.card-index, .card-side {
     border: none;
     border-radius: 5px;
     background-color: var(--lighter);
@@ -417,22 +417,23 @@ nav {
     cursor: pointer;
 }
 
-.index-content .card:hover {
+.card-index:hover {
     transform: translateY(-4px);
     box-shadow: 0 4px 14px rgba(0, 0, 0, .15);
 }
 
-.index-content .card:hover, .index-content .card:focus, .index-content .card:visited {
+.card-index:hover, .card-index:focus, .card-index:visited,
+.card-side:hover, .card-side:focus, .card-side.visited {
     text-decoration: none;
 }
 
-.index-content .card-img {
+.card-index .card-img, .card-side .card-img {
     object-fit: cover;
     max-height: 400px;
     border-radius: 5px 5px 0 0;
 }
 
-.index-content .card-text {
+.card-index .card-text, .card-index .card-text {
     color: var(--graytext)
 }
 
@@ -475,9 +476,13 @@ nav {
 }
 
 .widget-title {
-    margin: 0 0 18px;
+    margin: 0 0 10px;
     background-color: var(--lighter);
     color: var(--graytext);
+}
+
+.widget-title.popular {
+    margin-top: 13px;
 }
 
 .widget-social {
@@ -485,7 +490,19 @@ nav {
     color: #fff;
 }
 
+.widget-social.facebook {
+    margin-bottom: 18px;
+}
+
 .widget-social:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.card-side .card-title {
+    font-size: 20px;
+}
+
+.card-side .card-text {
+    font-size: 15px;
 }
