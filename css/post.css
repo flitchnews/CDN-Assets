@@ -178,6 +178,10 @@
     flex-direction: column;
 }
 
+.share-button .fa-twitter, .share-button .fa-facebook-f, .share-button .fa-reddit-alien, .share-button .fa-pinterest, .share-button .fa-whatsapp, .share-button .fa-envelope {
+    margin: 0 auto;
+}
+
 .share-button .fa-twitter {
     color: var(--twitter)
 }
