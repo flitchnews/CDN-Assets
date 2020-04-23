@@ -178,7 +178,7 @@
     flex-direction: column;
 }
 
-.share-button .fa-twitter, .share-button .fa-facebook-f, .share-button .fa-reddit-alien, .share-button .fa-pinterest, .share-button .fa-whatsapp, .share-button .fa-envelope {
+.share-button svg {
     margin: 0 auto;
 }
 
