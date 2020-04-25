@@ -507,3 +507,13 @@ nav {
 .card-side .card-text {
     font-size: 15px;
 }
+
+/* Footer */
+
+footer {
+    background: #070707;
+}
+
+footer .container-fluid {
+    max-width: 1300px;
+}
