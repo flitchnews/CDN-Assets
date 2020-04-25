@@ -511,9 +511,14 @@ nav {
 /* Footer */
 
 footer {
-    background: #070707;
+    color: #fff;
+    background: var(--header);
 }
 
 footer .container-fluid {
     max-width: 1300px;
+}
+
+.footer-copyright {
+    background: #17191d;
 }
