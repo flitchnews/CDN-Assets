@@ -172,7 +172,7 @@
     text-align: center;
     font-size: 16px;
     line-height: 48px;
-    transition: opacity .3s cubic-bezier(.32,.74,.57,1);
+    transition: opacity 200ms cubic-bezier(.32,.74,.57,1);
     flex: 0 0 48px;
     justify-content: center;
     border-radius: 6px;
@@ -207,7 +207,7 @@
     color: #ffa100
 }
 
-.share-button:hover {
+.share-button:hover, .comment-button:hover {
     opacity: .7;
 }
 
@@ -250,7 +250,8 @@
 
 .github-comments {
     max-width: 728px;
-    color: #fff
+    color: #fff;
+    margin-top: 10px;
 }
 
 .github-comments h3 {
@@ -270,14 +271,21 @@
 
 .comment-button {
     padding: 8px;
-    line-height: 24px;
     font-size: 16px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     border-radius: 5px;
     font-weight: 600;
     text-align: center;
-    display: block;
     background: #000;
+    min-width: 150px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: opacity 200ms cubic-bezier(.32,.74,.57,1);
+}
+
+.comment-button:hover {
+    color: #fff;
 }
 
 #gh-comments-list li {
