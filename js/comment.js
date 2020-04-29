@@ -31,7 +31,7 @@ function createCommentEl( response ) {
     let commentLink = document.createElement( 'a' );
     commentLink.setAttribute( 'href', response.html_url );
     commentLink.classList.add( 'comment-url' );
-    commentLink.innerHTML = response.created_at;
+    commentLink.innerHTML = 'Le ' + response.created_at.substring(0, response.created_at.indexOf('T'));
 
     let commentContents = document.createElement( 'div' );
     commentContents.classList.add( 'comment-content' );
