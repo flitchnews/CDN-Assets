@@ -290,13 +290,10 @@
 
 #gh-comments-list li {
     padding-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
 }
-
-#gh-comments-list:first-child {
-    padding-left: 0;
-}
-
 #gh-comments-list .avatar {
-    max-width: 32px;
-    max-height: 32px;
+    max-width: 64px;
 }

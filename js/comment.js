@@ -37,14 +37,18 @@ function createCommentEl( response ) {
     commentContents.classList.add( 'comment-content' );
     commentContents.innerHTML = response.body;
 
+    let commentInner = document.createElement('div');
+    commentInner.classList.add('comment-inner');
+    commentInner.appendChild(commentContents);
+    commentInner.appendChild(commentLink);
+
     let comment = document.createElement( 'li' );
     comment.setAttribute( 'data-created', response.created_at );
     comment.setAttribute( 'data-author-avatar', response.user.avatar_url );
     comment.setAttribute( 'data-user-url', response.user.url );
 
-    comment.appendChild( user );
-    comment.appendChild( commentContents );
-    comment.appendChild( commentLink );
+    comment.appendChild(user);
+    comment.appendChild(commentInner);
 
     return comment;
 }
