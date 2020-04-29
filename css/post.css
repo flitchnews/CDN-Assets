@@ -113,7 +113,7 @@
     padding: 0 !important;
 }
 
-.article-content {
+.article-content, .github-comments {
     max-width: 728px;
     padding: 30px;
     background-color: var(--lighter);
@@ -244,4 +244,11 @@
     text-align: center;
     margin-top: 10px;
     color: #8b9196;
+}
+
+/* Comments */
+
+.gh-comments-list .avatar {
+    max-width: 32px;
+    max-height: 32px;
 }
