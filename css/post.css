@@ -263,7 +263,7 @@
 }
 
 .post-comment {
-    padding: 30px;
+    padding: 10px 15px;
     background-color: var(--lighter);
     border-radius: 5px;
 }
