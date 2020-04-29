@@ -256,7 +256,7 @@
 
 .github-comments h3 {
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+    border-bottom: 1px solid #fff;
 }
 
 #gh-comments-list {
@@ -290,6 +290,7 @@
 
 #gh-comments-list li {
     padding-left: 15px;
+    padding-right: 15px;
     margin-top: 15px;
     display: flex;
     flex-direction: row;
@@ -297,4 +298,9 @@
 #gh-comments-list .avatar {
     max-width: 64px;
     margin-right: 10px;
+}
+
+.comment-inner {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
 }

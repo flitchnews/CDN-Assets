@@ -516,6 +516,10 @@ footer {
     background: #17191d;
 }
 
+footer a {
+    color: #fff;
+}
+
 footer .container-fluid {
     max-width: 1300px;
 }
