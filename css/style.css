@@ -398,6 +398,7 @@ nav {
     flex: 0 0;
     padding-left: 0;
     padding-right: 0;
+    max-width: unset;
 }
 
 .index-content .col-md-6 {

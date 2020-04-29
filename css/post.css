@@ -49,7 +49,6 @@
 .row-article {
     margin-left: 0;
     margin-right: 0;
-    height: 100%;
 }
 
 .article-header {
@@ -119,6 +118,7 @@
     background-color: var(--lighter);
     border-radius: 5px;
     color: #fff;
+    margin-bottom: 15px;
 }
 
 .embed-youtube {
