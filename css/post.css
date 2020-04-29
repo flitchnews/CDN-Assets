@@ -296,4 +296,5 @@
 }
 #gh-comments-list .avatar {
     max-width: 64px;
+    margin-right: 10px;
 }

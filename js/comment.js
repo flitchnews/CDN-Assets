@@ -31,7 +31,7 @@ function createCommentEl( response ) {
     let commentLink = document.createElement( 'a' );
     commentLink.setAttribute( 'href', response.html_url );
     commentLink.classList.add( 'comment-url' );
-    commentLink.innerHTML = '#' + response.id + ' - ' + response.created_at;
+    commentLink.innerHTML = response.created_at;
 
     let commentContents = document.createElement( 'div' );
     commentContents.classList.add( 'comment-content' );
@@ -39,8 +39,8 @@ function createCommentEl( response ) {
 
     let commentInner = document.createElement('div');
     commentInner.classList.add('comment-inner');
-    commentInner.appendChild(commentContents);
     commentInner.appendChild(commentLink);
+    commentInner.appendChild(commentContents);
 
     let comment = document.createElement( 'li' );
     comment.setAttribute( 'data-created', response.created_at );
