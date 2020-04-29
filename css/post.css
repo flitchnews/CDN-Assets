@@ -248,7 +248,7 @@
 
 /* Comments */
 
-.gh-comments-list .avatar {
+#gh-comments-list .avatar {
     max-width: 32px;
     max-height: 32px;
 }
