@@ -10,7 +10,7 @@ request.onload = function() {
         }
 
         if ( 0 === response.length ) {
-            document.getElementById( 'no-comments-found' ).style.display = 'block';
+            /*document.getElementById( 'no-comments-found' ).style.display = 'block';*/
         }
     } else {
         console.error( this );
