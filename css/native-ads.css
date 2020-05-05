@@ -1,0 +1,20 @@
+
+/* Native Ads - Article bottom */
+
+.container-d5ae4e7e5895b0bab97a6d19f663f005__img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container-d5ae4e7e5895b0bab97a6d19f663f005__bn {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--lighter);
+    color: #fff;
+    transform: translateZ(0);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    transition-timing-function: ease-in-out;
+    transition-property: transform, box-shadow, width;
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+
