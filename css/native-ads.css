@@ -26,6 +26,7 @@
 }
 
 .container-d5ae4e7e5895b0bab97a6d19f663f005__bn {
+    height: 100%;
     border: none;
     border-radius: 5px;
     background-color: var(--lighter);
@@ -42,8 +43,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 17px;
-    padding: 15px;
+    padding: 15px !important;
     font-family: 'Titillium Web', sans-serif;
     min-height: 132px;
 }
