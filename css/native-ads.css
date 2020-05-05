@@ -5,15 +5,6 @@
     margin-top: 10px;
 }
 
-.container-d5ae4e7e5895b0bab97a6d19f663f005__bn-container {
-    padding: 0 !important;
-    margin-right: 10px !important;
-}
-
-.container-d5ae4e7e5895b0bab97a6d19f663f005__stand:last-child {
-    margin-right: 0 !important;
-}
-
 .container-d5ae4e7e5895b0bab97a6d19f663f005__bn-container:hover {
     color: #fff;
     transform: translateY(-4px);
@@ -21,11 +12,17 @@
 }
 
 .container-d5ae4e7e5895b0bab97a6d19f663f005__bn-container {
+    padding: 0 !important;
+    margin-right: 10px !important;
     flex: 1 1 calc(33.33% - 10px) !important;
     transform: translateZ(0);
     transition-timing-function: ease-in-out;
     transition-property: transform, box-shadow, width;
     transition-duration: 150ms;
+}
+
+.container-d5ae4e7e5895b0bab97a6d19f663f005__bn-container:last-child {
+    margin-right: 0 !important;
 }
 
 .container-d5ae4e7e5895b0bab97a6d19f663f005__bn {
