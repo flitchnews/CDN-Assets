@@ -23,6 +23,7 @@
 }
 
 .container-d5ae4e7e5895b0bab97a6d19f663f005__bn-container {
+    flex: 1 1 calc(33.33% - 10px) !important;
     transform: translateZ(0);
     transition-timing-function: ease-in-out;
     transition-property: transform, box-shadow, width;
