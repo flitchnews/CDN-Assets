@@ -47,3 +47,19 @@
     font-family: 'Titillium Web', sans-serif;
     min-height: 132px;
 }
+
+.container-d5ae4e7e5895b0bab97a6d19f663f005__title::before {
+    content: 'Actualité';
+    font-size: 12px;
+    background-color: #464b56;
+    color: #fff;
+    display: block;
+    padding: 4px 8px;
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    z-index: 4;
+    box-shadow: 0 4px 14px rgba(0,0,0,.15);
+}
