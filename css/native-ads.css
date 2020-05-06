@@ -43,13 +43,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px !important;
+    text-align: initial !important;
+    padding: 20px 20px 30px !important;
     font-family: 'Titillium Web', sans-serif;
     min-height: 132px;
 }
 
 .container-d5ae4e7e5895b0bab97a6d19f663f005__title::before {
     content: 'Actualité';
+    font-family: 'Nunito', sans-serif;
     font-size: 12px;
     background-color: #464b56;
     color: #fff;
@@ -62,4 +64,15 @@
     border-radius: 6px;
     z-index: 4;
     box-shadow: 0 4px 14px rgba(0,0,0,.15);
+}
+
+.container-d5ae4e7e5895b0bab97a6d19f663f005__title::after {
+    content: 'Contenu partenaire';
+    color: #6c757d;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
 }
