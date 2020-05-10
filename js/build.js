@@ -13,6 +13,7 @@ const adUnits = [
 ];
 
 let build = () => {
+    console.log('run');
     smartyads.buildUnits(adUnits);
 };
 
