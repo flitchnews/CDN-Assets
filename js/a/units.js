@@ -1,5 +1,5 @@
 
-var adUnits = [
+var units = [
     {
         code: 'block_18519', // Article Top 728x90
         placement_id: 18519,
@@ -17,4 +17,4 @@ var adUnits = [
     }
 ];
 
-smartyads.buildUnits(adUnits);
+smartyads.buildUnits(units);
